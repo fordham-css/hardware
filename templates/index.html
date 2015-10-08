@@ -1,9 +1,63 @@
 <html>
 	<head>
 		<title>Hardware Library</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />		
 		<link rel="shortcut icon" href={{ url_for('static',filename='favicon.ico') }}>
+		<link rel="stylesheet" href="static/css/main.css" />
 	</head>
 	<body>
-		<h1>hello!</h1>
+	<!-- Header -->
+		<section id="header" class="dark">
+			<header>
+				<h1>Welcome to the CSS Hardware Lab</h1>
+				<p>A free library for all Fordham students</p>
+			</header>
+			<footer>
+				<a href="#first" class="button scrolly">Proceed to inventory list</a>
+			</footer>
+		</section>
+
+	<!-- Inventory -->
+		<section id="first" class="main">
+			<header>
+				<div class="container">
+					<h2>Hardware Inventory</h2>
+					<p>Here are some of our hardware items.<br />
+					Feel free to check them out.</p>
+				</div>
+			</header>
+			<div class="content dark style1 featured">
+				<div class="container">	
+					<table>
+						<tr>
+							<th>Item</th>
+							<th>Status</th>
+							<th>Quantity</th>
+						</tr>
+						{% for item in data %}
+							<tr>
+								<td>
+								{% if item['Quantity'] != '0' %}
+									<button>{{ item['Hardware Item'] }}</button>
+								{% else %}
+									<p>{{ item['Hardware Item'] }}</p>
+								{% endif %}
+								</td>
+								<td><p>{{ item['Status'] }}</p></td>
+								<td><p>{{ item['Quantity'] }}</p></td>
+							</tr>
+						{% endfor %}
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.scrolly.min.js"></script>
+			<script src="static/js/skel.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>		
 	</body>
 </html>
