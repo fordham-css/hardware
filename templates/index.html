@@ -22,37 +22,38 @@
 		<section id="first" class="main">
 			<header>
 				<div class="container">
-					<h2>Hardware Inventory</h2>
-					<p>Here are some of our hardware items.<br />
-					Feel free to check them out.</p>
+					<h2>How Checkout Works</h2>
+					<ol>
+						<li>Select an item</li>
+						<li>Fill out the form</li>
+						<li>We'll be in touch</li>
+					</ol>
+					<p>You'll be enjoying your new hardware in no time :)</p>
 				</div>
 			</header>
-			<div class="content dark style1 featured">
-				<div class="container">	
-					<table>
-						<tr>
-							<th>Item</th>
-							<th>Status</th>
-							<th>Quantity</th>
-						</tr>
-						{% for item in data %}
-							<tr>
-								<td>
-								{% if item['Quantity'] != '0' %}
-									<button>{{ item['Hardware Item'] }}</button>
-								{% else %}
-									<p>{{ item['Hardware Item'] }}</p>
-								{% endif %}
-								</td>
-								<td><p>{{ item['Status'] }}</p></td>
-								<td><p>{{ item['Quantity'] }}</p></td>
-							</tr>
-						{% endfor %}
-					</table>
+			<div class="content dark style2">
+				<div class="container">
+					<div class="row">
+						<div class="12u 12u(narrow)">
+							<section>
+								<h3>Hardware Catalog</h3>
+								<p>Here is our hardware inventory. Feel free to check something out.</p>
+							</section>
+						</div>
+						<div class="12u 12u(narrow)">
+							<div class="row">
+								{% for item in data %}
+								<div class="4u">
+									<a href="#" class="image fit"><img src="{{item['ImageURL']}}" alt=""></a>
+									<h4>{{item['Hardware Item']}}</h4>
+								</div>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
-
 		<!-- Scripts -->
 			<script src="static/js/jquery.min.js"></script>
 			<script src="static/js/jquery.scrolly.min.js"></script>

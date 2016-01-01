@@ -10,10 +10,8 @@ def page_not_found(error):
 
 @app.route("/")
 def hello():
-	url = "https://sheetsu.com/apis/4b26cc3d"
-	response = urllib.urlopen(url)
-	data = json.loads(response.read())
-	data = data['result']
+	json_data = open('items.json')
+	data = json.load(json_data)
 
 	return render_template("index.html", data=data)
 
