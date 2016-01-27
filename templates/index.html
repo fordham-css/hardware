@@ -25,8 +25,8 @@
 					<h2>How Checkout Works</h2>
 					<ol>
 						<li>Select an item</li>
-						<li>Send us an email</li>
-						<li>We'll be in touch</li>
+						<li>Fill out the form</li>
+						<li>We'll be in touch!</li>
 					</ol>
 					<p>You'll be enjoying your new hardware in no time :)</p>
 				</div>
@@ -46,15 +46,14 @@
 								<div class="4u 6u(narrow)">
 									<div class="thisthing">
 										<div class="image fit">
-											<img src="{{item['ImageURL']}}" alt="">
+											<img src="{{"static/images/inventory/" ~ item['ImageURL']}}" alt="">
 										</div>
-										<a href="mailto:eboard.css@gmail.com?subject=Hardware Checkout Request&body=Hi!%0A%0AI'd like to checkout the {{item['Hardware Item']}} from the CSS Hardware Library.%0A%0AFull Name: %0AFordham Email: %0AClass / Year: %0APlanned hardware usage: %0A%0AI understand that there are terms and conditions that I will have to agree to upon receipt of the item.">
+										<a href="{{"https://docs.google.com/forms/d/11ciP6wcHqHMCoc5hA4h9SsA2olAGWdE8jX6Dq7TiMJ8/viewform?entry.96774140&entry.96774140&entry.1167578859&entry.930661957&entry.1049094140=" ~ item['Form Link'] ~ "&entry.100790372"}}">
 										<button class="request-button">Request Now</button>
 										</a>
 									</div>
 									<div class="12u description">
 										<h2>{{item['Hardware Item']}}</h2>
-										<p>{{item['Description']}}</p>
 									</div>
 								</div>
 								{% endfor %}
