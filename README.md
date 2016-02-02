@@ -1,7 +1,7 @@
-Fordham CSS
+Fordham CSS Hardware Lab
 =====
 
-A simple hardware inventory checkout system made by and for Fordham students - built and maintained by the Computer Science Society.
+A simple hardware inventory checkout system made by and for Fordham students, and maintained by the Computer Science Society.
 
 ###How it works
 1. Select an item
