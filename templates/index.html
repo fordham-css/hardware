@@ -45,15 +45,15 @@
 								{% for item in data %}
 								<div class="4u 6u(narrow)">
 									<div class="thisthing">
-										<div class="image fit">
+										<a class="image fit" target="_blank" href="{{"https://docs.google.com/forms/d/11ciP6wcHqHMCoc5hA4h9SsA2olAGWdE8jX6Dq7TiMJ8/viewform?entry.96774140&entry.96774140&entry.1167578859&entry.930661957&entry.1049094140=" ~ item['Form Link'] ~ "&entry.100790372"}}">
 											<img src="{{"static/images/inventory/" ~ item['ImageURL']}}" alt="">
-										</div>
-										<a href="{{"https://docs.google.com/forms/d/11ciP6wcHqHMCoc5hA4h9SsA2olAGWdE8jX6Dq7TiMJ8/viewform?entry.96774140&entry.96774140&entry.1167578859&entry.930661957&entry.1049094140=" ~ item['Form Link'] ~ "&entry.100790372"}}">
-										<button class="request-button">Request Now</button>
 										</a>
-									</div>
-									<div class="12u description">
-										<h2>{{item['Hardware Item']}}</h2>
+										<div class="12u description">
+											<h2>{{item['Hardware Item']}}</h2>
+										</div>
+										<a target="_blank" href="{{"https://docs.google.com/forms/d/11ciP6wcHqHMCoc5hA4h9SsA2olAGWdE8jX6Dq7TiMJ8/viewform?entry.96774140&entry.96774140&entry.1167578859&entry.930661957&entry.1049094140=" ~ item['Form Link'] ~ "&entry.100790372"}}">
+											<button class="request-button">Request Now</button>
+										</a>
 									</div>
 								</div>
 								{% endfor %}

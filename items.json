@@ -8,6 +8,7 @@
 {"Hardware Item": "Assorted LEDs", "ImageURL": "assortedLEDs.jpg", "Form Link": "Assorted+LEDs"},
 {"Hardware Item": "Breadboards", "ImageURL": "breadboard.jpg", "Form Link": "Breadboard"},
 {"Hardware Item": "Chromebook", "ImageURL": "chromebook.jpg", "Form Link": "Chromebook"},
+{"Hardware Item": "CtCI Interview Book", "ImageURL": "ctci.jpg", "Form Link": "Cracking+the+Coding+Interview"},
 {"Hardware Item": "HDMI Cable", "ImageURL": "HDMIcable.jpg", "Form Link": "HDMI+Cable"}, 
 {"Hardware Item": "Jumper Wires", "ImageURL": "jumperwires.jpg", "Form Link": "Jumper+Wires"},
 {"Hardware Item": "LCD Display (2x16)", "ImageURL": "LCDdisplay.jpg", "Form Link": "LCD+Display+(2x16)"},
@@ -18,6 +19,7 @@
 {"Hardware Item": "MicroSD Card", "ImageURL": "microSDcard.jpg", "Form Link": "MicroSD+Card"}, 
 {"Hardware Item": "MIDI Interface", "ImageURL": "MIDIinterface.jpg", "Form Link": "MIDI+Interface"},
 {"Hardware Item": "Motorola Moto 360", "ImageURL": "moto360.jpg", "Form Link": "Motorola+Moto+360"},
+{"Hardware Item": "Muse Brain Sensor", "ImageURL": "muse.jpg", "Form Link": "Muse+Brain+Sensor"},
 {"Hardware Item": "Myo Armband", "ImageURL": "myoarmband.jpg", "Form Link": "Myo+Armband"}, 
 {"Hardware Item": "Oculus Rift DK2", "ImageURL": "oculus.jpg", "Form Link": "Oculus+Rift+DK2"}, 
 {"Hardware Item": "Pebble Smartwatch", "ImageURL": "pebble.jpg", "Form Link": "Pebble+Smartwatch"},
@@ -25,4 +27,5 @@
 {"Hardware Item": "Raspberry Pi Book ", "ImageURL": "raspberrypibook.jpg", "Form Link": "Raspberry+Pi+Book"},
 {"Hardware Item": "Resistors (500x)", "ImageURL": "resistors.jpg", "Form Link": "Resistors+(500x)"}, 
 {"Hardware Item": "Sony Xperia Tipo", "ImageURL": "sonyxperiatipo.jpg", "Form Link": "Sony+Xperia+Tipo"}, 
-{"Hardware Item": "Ultrasonic Ping Sensor", "ImageURL": "ultrasonicpingsensor.jpg", "Form Link": "Ultrasonic+Ping+Sensor"}]
+{"Hardware Item": "Ultrasonic Ping Sensor", "ImageURL": "ultrasonicpingsensor.jpg", "Form Link": "Ultrasonic+Ping+Sensor"},
+{"Hardware Item": "Wireless Keyboard", "ImageURL": "wirelesskeyboard.jpg", "Form Link": "Wireless+Keyboard"}]
