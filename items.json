@@ -22,10 +22,12 @@
 {"Hardware Item": "Muse Brain Sensor", "ImageURL": "muse.jpg", "Form Link": "Muse+Brain+Sensor"},
 {"Hardware Item": "Myo Armband", "ImageURL": "myoarmband.jpg", "Form Link": "Myo+Armband"}, 
 {"Hardware Item": "Oculus Rift DK2", "ImageURL": "oculus.jpg", "Form Link": "Oculus+Rift+DK2"}, 
+{"Hardware Item": "Particle Photon", "ImageURL": "particlephoton.jpg", "Form Link": "Particle+Photon"},
 {"Hardware Item": "Pebble Smartwatch", "ImageURL": "pebble.jpg", "Form Link": "Pebble+Smartwatch"},
 {"Hardware Item": "Raspberry Pi 2", "ImageURL": "raspberrypi2.jpg", "Form Link": "Raspberry+Pi+2"}, 
 {"Hardware Item": "Raspberry Pi Book ", "ImageURL": "raspberrypibook.jpg", "Form Link": "Raspberry+Pi+Book"},
 {"Hardware Item": "Resistors (500x)", "ImageURL": "resistors.jpg", "Form Link": "Resistors+(500x)"}, 
 {"Hardware Item": "Sony Xperia Tipo", "ImageURL": "sonyxperiatipo.jpg", "Form Link": "Sony+Xperia+Tipo"}, 
 {"Hardware Item": "Ultrasonic Ping Sensor", "ImageURL": "ultrasonicpingsensor.jpg", "Form Link": "Ultrasonic+Ping+Sensor"},
+{"Hardware Item": "Wifi Dongle", "ImageURL": "wifidongle.jpg", "Form Link": "Wifi+Dongle"},
 {"Hardware Item": "Wireless Keyboard", "ImageURL": "wirelesskeyboard.jpg", "Form Link": "Wireless+Keyboard"}]
