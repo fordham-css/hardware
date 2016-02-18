@@ -43,9 +43,18 @@ header ol {
 	padding-top:10%;
 }
 
+.description p {
+	font-size: 16px;
+	line-height: 1.25;
+}
+
 @media screen and (min-width: 1681px) {
 	.image.fit > img {
 		height: 350px;
+	}
+
+	.thisthing {
+		height: 600px;
 	}
 }
 
@@ -53,17 +62,29 @@ header ol {
 	.image.fit > img {
 		height: 350px;
 	}
+	
+	.thisthing {
+		height: 600px;
+	}
 }
 
 @media screen and (max-width: 1280px) {
 	.image.fit > img {
 		height: 300px;
 	}
+
+	.thisthing {
+		height: 575px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
 	.image.fit > img {
 		height: 350px;
+	}
+
+	.thisthing {
+		height: 600px;
 	}
 }
 
@@ -72,10 +93,20 @@ header ol {
 		height: 250px;
 	}
 
+	.thisthing {
+		height: 550px;
+	}
+
 	.request-button {
 		visibility: visible;
 		opacity: 1;
 		padding: 0.5em 1.5em 0.5em 1.5em;
+	}
+}
+
+@media screen and (max-width: 533px) {
+	.thisthing {
+		height: 600px;
 	}
 }
 
